@@ -39,7 +39,6 @@ const drawCircle = (e) => {
     ctx.arc(prevMouseX, prevMouseY, radius, 0, 2 * Math.PI); 
     fillColor.checked ? ctx.fill() : ctx.stroke(); 
 }
-
 const drawTriangle = (e) => {
     ctx.beginPath();
     ctx.moveTo(prevMouseX, prevMouseY); 
