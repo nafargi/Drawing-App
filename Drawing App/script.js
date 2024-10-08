@@ -8,7 +8,6 @@ clearCanvas = document.querySelector(".clear-canvas"),
 saveImg = document.querySelector(".save-img"),
 ctx = canvas.getContext("2d");
 
-
 let prevMouseX, prevMouseY, snapshot,
 isDrawing = false,
 selectedTool = "brush",
