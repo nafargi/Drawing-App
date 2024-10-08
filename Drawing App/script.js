@@ -103,7 +103,6 @@ colorPicker.addEventListener("change", () => {
 clearCanvas.addEventListener("click", () => {
     setCanvasBackground();
 });
-
 saveImg.addEventListener("click", () => {
     const link = document.createElement("a");
     link.download = `${Date.now()}.jpg`; 
