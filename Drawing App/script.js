@@ -19,7 +19,6 @@ const setCanvasBackground = () => {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = selectedColor; 
 }
-
 window.addEventListener("load", () => {
     canvas.width = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
