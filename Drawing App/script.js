@@ -95,7 +95,6 @@ colorBtns.forEach(btn => {
         selectedColor = window.getComputedStyle(btn).getPropertyValue("background-color");
     });
 });
-
 colorPicker.addEventListener("change", () => {
     colorPicker.parentElement.style.background = colorPicker.value;
     colorPicker.parentElement.click();
