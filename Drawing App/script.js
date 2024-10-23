@@ -80,7 +80,6 @@ toolBtns.forEach(btn => {
         selectedTool = btn.id;
     });
 });
-
 sizeSlider.addEventListener("change", () => brushWidth = sizeSlider.value); 
 
 colorBtns.forEach(btn => {
