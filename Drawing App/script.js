@@ -55,7 +55,6 @@ const startDraw = (e) => {
     ctx.fillStyle = selectedColor; 
     snapshot = ctx.getImageData(0, 0, canvas.width, canvas.height);
 }
-
 const drawing = (e) => {
     if(!isDrawing) return; 
     ctx.putImageData(snapshot, 0, 0); 
