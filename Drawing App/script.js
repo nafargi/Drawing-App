@@ -14,7 +14,6 @@ selectedTool = "brush",
 brushWidth = 5,
 selectedColor = "#000";
 const setCanvasBackground = () => {
- 
     ctx.fillStyle = "#fff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = selectedColor; 
