@@ -23,7 +23,6 @@ window.addEventListener("load", () => {
     canvas.height = canvas.offsetHeight;
     setCanvasBackground();
 });
-
 const drawRect = (e) => {
    
     if(!fillColor.checked) {
